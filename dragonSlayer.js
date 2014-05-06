@@ -6,6 +6,7 @@ var slaying = true,
     dragonHit = 0,
     damageThisRound = 0,
     damageToPlayer = 0;
+
     
 while(slaying) {
     console.log("Player Health: " + playerHealth + ", " + "Dragon Health: " + dragonHealth);
