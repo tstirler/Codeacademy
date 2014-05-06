@@ -1,11 +1,12 @@
-var slaying = true;
-var totalDamage = 0;
-var playerHealth = 10;
-var dragonHealth = 20;
-var youHit = 0;
-var dragonHit = 0;
-var damageThisRound = 0;
-var damageToPlayer = 0;
+var slaying = true,
+    totalDamage = 0,
+    playerHealth = 10,
+    dragonHealth = 20,
+    youHit = 0,
+    dragonHit = 0,
+    damageThisRound = 0,
+    damageToPlayer = 0;
+    
 while(slaying) {
     console.log("Player Health: " + playerHealth + ", " + "Dragon Health: " + dragonHealth);
     
