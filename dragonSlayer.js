@@ -19,12 +19,10 @@ while(slaying) {
         if(dragonHealth <= 0) {
             console.log("You have slain the dragon");
             slaying = false;
-            } 
-        else {
+        } else {
             console.log("You swing at the dragon again!");
-            }
-        } 
-    else {
+        }
+    } else {
         console.log("You Miss");
         dragonHit = Math.floor(Math.random() * 2);
         if(dragonHit===1) {
@@ -34,11 +32,10 @@ while(slaying) {
             if(playerHealth <= 0) {
                 console.log("You have been slain!");
                 slaying = false;
-                }
-            } 
-        else {
+            }
+        } else {
             console.log("The dragon misses.");
         }
     }
-    
+
 }
